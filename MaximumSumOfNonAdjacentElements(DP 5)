@@ -1,0 +1,50 @@
+#include <bits/stdc++.h> 
+//recursion
+/*
+int helper(int i, int n, vector<int>& nums){
+    if(i>=n) return 0;
+    int sum1 = nums[i]+helper(i+2,n,nums);
+    int sum2 = helper(i+1,n,nums);
+    return max(sum1,sum2);
+}
+int maximumNonAdjacentSum(vector<int> &nums){
+    // Write your code here.
+    int n = nums.size();
+    return helper(0,n,nums);
+}
+*/
+//memoization
+/*
+int helper(int i, int n, vector<int>&dp, vector<int>& nums){
+    if(i==n-1) return nums[i];
+
+    if(i>=n) return 0;
+    if(dp[i]!=-1) return dp[i];
+
+    int s1 = nums[i]+ helper(i+2,n,dp,nums);
+    int s2 = helper(i+1,n,dp,nums);
+    dp[i]=max(s1,s2);
+    return dp[i];
+}
+
+int maximumNonAdjacentSum(vector<int> &nums){
+    // Write your code here.
+    int n = nums.size();
+    vector<int> dp(n,-1);
+   return helper(0,n,dp,nums);
+}
+*/
+int maximumNonAdjacentSum(vector<int> &nums){
+    // Write your code here.
+    int n = nums.size();
+    vector<int> dp(n,-1);
+    dp[n-1]=nums[n-1];
+
+    for(int i = n-2; i>=0; i--){
+        
+        int s1 = nums[i]+((i+2>=n)?0:dp[i+2]);
+        int s2 = dp[i+1];
+        dp[i]=max(s1, s2);
+    }
+    return dp[0];
+}
