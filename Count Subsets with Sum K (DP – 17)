@@ -1,0 +1,33 @@
+#include <bits/stdc++.h> 
+
+int helper(int i, int n, int target, vector<int>& arr, vector<vector<int>>& dp){
+    if(target==0){       
+        return 1;
+    }
+
+    if(i==n-1){
+        
+        return arr[i]==target;
+    }
+    if(dp[i][target]!=-1) return dp[i][target];
+
+    int s1 = helper(i+1,n,target,arr,dp);
+
+    int s2 = 0;
+    if(arr[i]<=target){
+        
+        s2 = helper(i+1,n,target-arr[i],arr,dp);
+        
+    }
+    dp[i][target] = s1+s2;
+    return dp[i][target];
+}
+
+int findWays(vector<int> &num, int tar)
+{
+    // Write your code here
+    int n = num.size();
+    vector<vector<int>> dp(n,vector<int>(tar+1,-1));
+    return helper(0,n,tar,num,dp);
+
+}
