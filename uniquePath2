@@ -1,0 +1,26 @@
+int mod = 1e9+7;
+int helper(int r, int c, int rows, int cols,vector< vector< int> > &mat, vector<vector<int>>& dp){
+	if(r<0 || r==rows|| c<0 || c==cols){
+		return 0;
+	}
+	if(r == rows-1 && c ==cols-1){
+		return 1;
+	}
+    if(mat[r][c]==-1) return 0;
+	if(dp[r][c]!=-1) return dp[r][c];
+    
+	int ans1 = (helper(r+1,c,rows,cols,mat,dp))%mod;
+	int ans2 = (helper(r,c+1,rows,cols,mat,dp))%mod;
+
+	dp[r][c] = (ans1+ans2)%mod;
+
+	return dp[r][c];
+
+}
+
+int mazeObstacles(int n, int m, vector< vector< int> > &mat) {
+    // Write your code here
+    vector<vector<int>> dp(n,vector<int>(m,-1));
+    if(mat[n-1][m-1]==-1) return 0;
+	return helper(0,0,n,m,mat,dp);
+}
