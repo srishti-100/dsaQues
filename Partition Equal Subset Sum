@@ -1,0 +1,29 @@
+bool helper(int i, int n, int sum, vector<int>& arr,vector<vector<int>>& dp){
+    if(i == n){
+        return false;
+    }
+    if(arr[i]==sum){
+        return true;
+    }
+    if(dp[i][sum]!=-1) return dp[i][sum];
+    bool ans1 = helper(i+1,n,sum,arr,dp);
+    bool ans2 = false;
+    if(sum>arr[i]){
+        ans2 = helper(i+1,n,sum-arr[i],arr, dp);
+    }
+    dp[i][sum] =  ans1||ans2;
+
+    return ans1||ans2;
+}
+
+
+bool canPartition(vector<int> &arr, int n) {
+  // Write your code here.
+	
+	int k = 0;
+	for(int i =0; i<n; i++) k+=arr[i];
+	if(k%2!=0) return false;
+	
+	vector<vector<int>> dp(n,vector<int>(k+1,-1));
+    return helper(0,n,k/2,arr,dp);
+}
