@@ -10,6 +10,7 @@
  * };
  */
 class Solution {
+    /*
 private:
     void helper(TreeNode* root, vector<int>& ans){
         if(root==NULL) return;
@@ -22,6 +23,33 @@ public:
     vector<int> postorderTraversal(TreeNode* root) {
         vector<int> ans;
         helper(root, ans);
+        return ans;
+    }
+    */
+
+    public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> ans;
+        if(root == NULL) return ans;
+        stack<TreeNode*> s1;
+        stack<TreeNode*> s2;
+
+        s1.push(root);
+
+        while(!s1.empty()){
+            TreeNode* t = s1.top();
+            s1.pop();
+            
+            if(t->left!=NULL) s1.push(t->left);
+            if(t->right!=NULL) s1.push(t->right);
+
+            s2.push(t);
+        }
+
+        while(!s2.empty()){
+            ans.push_back(s2.top()->val);
+            s2.pop();
+        }
         return ans;
     }
 };
