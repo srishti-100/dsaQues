@@ -3,23 +3,26 @@ public:
     int maxProfit(vector<int>& values) {
         int n = values.size();
         // vector<vector<int>> dp(n+1,vector<int>(2,-1));
-        vector<int> last(2,-1), curr(2,-1);
-        last[0]=last[1]=0;
+        // vector<int> last(2,-1), curr(2,-1);
+        // last[0]=last[1]=0;
+
+        int lastBuy  = 0;
+        int lastNotBuy = 0;
+        int currBuy = 0;
+        int currNotBuy = 0;
         for(int i =n-1; i>=0; i--){
-            for(int j = 0; j<2; j++){
-                int profit = LONG_MIN;
-                if(j){
-                    profit = max(-values[i] + last[0], 0+ last[1]);
-                }
-                else{
-                    profit = max(values[i] + last[1], 0+ last[0]);
-                }
-                curr[j]=profit;
-            }
-            last = curr;
+            
+                
+            currBuy = max(-values[i] + lastNotBuy, 0+ lastBuy);
+                
+                
+            currNotBuy = max(values[i] + lastBuy, 0+ lastNotBuy);
+            
+            lastBuy = currBuy;
+            lastNotBuy = currNotBuy;
         }
 
-        return last[1];
+        return lastBuy;
     }
 };
 /*
