@@ -18,6 +18,7 @@ private:
         }
         return l;
     }
+    /*
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
         vector<ListNode*> ans;
@@ -57,5 +58,32 @@ public:
             }
         }
         return ans;
+    }*/
+    public:
+    vector<ListNode*> splitListToParts(ListNode* head, int k) {
+        vector<ListNode*> ans;
+        int l = length(head);
+
+        int part = l/k;
+        int rem = l%k;
+        ListNode* temp = head;
+        for(int i =0; i<k; i++){
+            ListNode* h = temp;
+            for(int j = 0; j<part +(rem>0?0:-1); j++){
+                temp = temp->next;
+            }
+            rem--;
+            if(temp!=NULL){
+                ListNode* t = temp->next;
+                temp->next = NULL;
+                
+                temp = t;
+            }
+            ans.push_back(h);
+
+        }
+        return ans;
+    
     }
+
 };
