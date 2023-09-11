@@ -1,7 +1,8 @@
 class Solution {
 public:
     vector<vector<int>> groupThePeople(vector<int>& gp) {
-        
+        //My Solution
+        /*
         unordered_map<int, vector<int> > mp;
         int n = gp.size();
         for(int i =0; i<n; i++){
@@ -37,6 +38,33 @@ public:
         }
 
         return ans;
+        */
+
+        //editorial solution
+        int n = gp.size();
+        unordered_map<int, vector<int> > mp;
+        vector<vector<int>> ans; 
+        for(int i =0; i<n; i++){
+            if(mp[gp[i]].size()<gp[i])
+                mp[gp[i]].push_back(i);
+            else{
+                ans.push_back(mp[gp[i]]);
+                mp[gp[i]].clear();
+                mp[gp[i]].push_back(i);
+            }
+        }
+
+        for(auto it: mp){
+            
+            if(it.second.size()!=0){
+                ans.push_back(it.second);
+                it.second.clear();
+            }
+            
+        }
+
+        return ans;
+
 
 
     }
