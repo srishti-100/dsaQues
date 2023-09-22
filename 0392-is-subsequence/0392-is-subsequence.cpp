@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
+        
         int i =0;
         int j =0;
         int n = t.size();
@@ -19,5 +20,7 @@ public:
 
         if(i<m) return false;
         return true;
+        
+
     }
 };
