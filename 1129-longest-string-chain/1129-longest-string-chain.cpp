@@ -1,79 +1,81 @@
 class Solution {
-private:
-    bool eraseString(string str1,string str2){
-        if(str1.empty() || str2.empty()) return false;
-        if(str1.length()+1 !=str2.length()) return false;
-        for(int i =0; i<str2.length(); i++){
-            string modifiedStr = str2;
-            modifiedStr.erase(modifiedStr.begin() + i);
-            if(modifiedStr==str1){
-                return true;
+public:
+    static bool cmp(string a, string b){
+        return a.length()<b.length();
+    }
+    bool cntCheck(string a, string b){
+        if(a.length()==b.length()) return false;
+        if(a.length()+1!=b.length()) return false;
+        if(a.length()==0 ^b.length()==0) return false;
+
+        int i =0;
+        int j =0;
+        int n = a.length();
+        int m = b.length();
+        int cnt = 0;
+
+        while(i<n && j<m){
+            if(a[i]==b[j]) {
+                i++;
+                j++;
+            }
+            else {
+                if(cnt==0){
+                    j++;
+                    cnt++;
+                }
+                else{
+                    return false;
+                }
             }
         }
-        return false;
-
+        return true;
     }
     
-
-
-
-    int helper(int idx, int n, int prev_idx, vector<string>& words, vector<vector<int>>& dp){
+    /*
+    int helper(int idx, vector<string>& words, int prev_idx, int n, vector<vector<int>>& dp){
         if(idx==n) return 0;
         if(dp[idx][prev_idx+1]!=-1) return dp[idx][prev_idx+1];
-        int nt = helper(idx+1, n, prev_idx, words,dp);
-        int t = 0;
-    
-        if( prev_idx==-1  || eraseString(words[prev_idx],words[idx])){
-            t = 1+helper(idx+1,n,idx,words,dp);
+        int notPick = helper(idx+1,words,prev_idx,n, dp);
+
+        int pick = 0;
+        if(prev_idx==-1 || cntCheck(words[prev_idx],words[idx])){
+            pick=1+helper(idx+1,words, idx,n, dp);
         }
-        return dp[idx][prev_idx+1]=max(nt,t);
+
+        return dp[idx][prev_idx+1] = max(pick,notPick);
     }
 
 
-public:
-    static bool cmp(string s1,string s2){
-        return s1.length()<s2.length();
-    }
-
-    /*
     int longestStrChain(vector<string>& words) {
-        sort(words.begin(), words.end(),cmp);
+        sort(words.begin(),words.end(),cmp);
         int n = words.size();
-        // vector<vector<int>> dp(n+1,vector<int>(n+1,0));
-        vector<int> curr(n+1,0);
-        vector<int> last(n+1,0);
+        vector<vector<int>> dp(n,vector<int>(n+1,-1));
+        return helper(0,words,-1, n, dp);
 
-        for(int i = n-1; i>=0; i--){
-            for(int j = i-1; j>=-1; j--){
-                int nt = last[j+1];
-                int t = 0;
-            
-                if( j==-1  || eraseString(words[j],words[i])){
-                    t = 1+last[i+1];
-                }
-                curr[j+1]=max(nt,t);
-            }
-            last = curr;
-        }
-        return last[0];
     }
     */
 
     int longestStrChain(vector<string>& words) {
-        int n = words.size();
         sort(words.begin(),words.end(),cmp);
-        vector<int> dp(n,1);
-        int maxi = 1;
+        int n = words.size();
+        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+        
+        for(int i = n-1; i>=0; i--){
 
-        for(int i =1; i<n; i++){
-             for(int j = 0; j<i; j++){
-                 if(eraseString(words[j],words[i])){
-                     dp[i] = max(dp[i],dp[j]+1);
-                 }
-             }
-             maxi = max(maxi,dp[i]);
+            for(int j = i-1; j>=-1; j--){
+                int notPick = dp[i+1][j+1];
+
+                int pick = 0;
+                if(j==-1 || cntCheck(words[j],words[i])){
+                    pick=1+dp[i+1][i+1];
+                }
+
+                dp[i][j+1] = max(pick,notPick);
+            }
         }
-        return maxi;
+
+        return dp[0][0];
     }
 
 };
