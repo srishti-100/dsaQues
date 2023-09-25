@@ -1,6 +1,10 @@
 class Solution {
 public:
     char findTheDifference(string s, string t) {
+        /*
+        //O(n) tc
+        //O(n) sc
+    
         unordered_map<char,int> mp1;
 
         for(auto c: s){
@@ -20,5 +24,17 @@ public:
         }
 
         return ' ';
+        */
+
+        int s1 = 0;
+        for(auto c: s){
+            s1+=(int)c;
+        }
+        int s2 = 0;
+        for(auto c: t){
+            s2+=(int)c;
+        }
+
+        return (char)(s2-s1);
     }
 };
