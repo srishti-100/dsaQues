@@ -1,14 +1,52 @@
-class Trie{
+class TrieNode{
         public:
-        Trie* children[26];
+        TrieNode* children[26];
         bool isEnd;
 
-        Trie(){
+        TrieNode(){
             isEnd = false;
             for(int i =0; i<26; i++){
                 children[i]=nullptr;
             }
         }
+};
+
+class Trie{
+    TrieNode* root;
+    public:
+    Trie(){
+        root = new TrieNode();
+    }
+
+    void insert(string word){
+        TrieNode* node = root;
+
+        for(char ch:word){
+            if(node->children[ch-'a']==nullptr){
+                node->children[ch-'a'] = new TrieNode();
+            }
+            node = node->children[ch-'a'];
+        }
+        node->isEnd = true;
+    }
+
+    string search(string word){
+        TrieNode* node = root;
+
+        string result;
+
+        for(char ch:word){
+            if(node->children[ch-'a']==nullptr){
+                return word;
+            }
+            result+=ch;
+            if(node->children[ch-'a']->isEnd){
+                return result;
+            }
+            node= node->children[ch-'a'];
+        }
+        return word;
+    }
 };
 
 class Solution {
@@ -51,51 +89,18 @@ public:
     }
     */
     
-    Trie* root;
-    Solution(){
-        root = new Trie();
-    }
-
-    void insert(string word){
-        Trie* node = root;
-
-        for(char ch:word){
-            if(node->children[ch-'a']==nullptr){
-                node->children[ch-'a'] = new Trie();
-            }
-            node = node->children[ch-'a'];
-        }
-        node->isEnd = true;
-    }
-
-    string search(string word){
-        Trie* node = root;
-
-        string result;
-
-        for(char ch:word){
-            if(node->children[ch-'a']==nullptr){
-                return word;
-            }
-            result+=ch;
-            if(node->children[ch-'a']->isEnd){
-                return result;
-            }
-            node= node->children[ch-'a'];
-        }
-        return word;
-    }
 
     string replaceWords(vector<string>& d, string s) {
+        Trie trie;
         for(string word: d){
-            insert(word);
+            trie.insert(word);
         }
 
         stringstream ss(s);
         string result,word;
         
         while(ss>>word){
-            string pref = search(word); 
+            string pref = trie.search(word); 
             if(!pref.empty()){
                 result+=pref+" ";
             }
