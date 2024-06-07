@@ -93,11 +93,18 @@ public:
 
         stringstream ss(s);
         string result,word;
+        
         while(ss>>word){
-            if(!result.empty()){
-                result+=" ";
+            string pref = search(word); 
+            if(!pref.empty()){
+                result+=pref+" ";
             }
-            result+=search(word);
+            else{
+                result+=word+" ";
+            }
+        }
+        if(!result.empty()){
+            result.pop_back();
         }
         return result;
     }
