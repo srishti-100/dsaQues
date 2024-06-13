@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/srishti-100/dsaQues/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/srishti-100/dsaQues/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/srishti-100/dsaQues/tree/master/0344-reverse-string) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/srishti-100/dsaQues/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/srishti-100/dsaQues/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/srishti-100/dsaQues/tree/master/0189-rotate-array) |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/srishti-100/dsaQues/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/srishti-100/dsaQues/tree/master/0876-hand-of-straights) |
@@ -56,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/srishti-100/dsaQues/tree/master/0189-rotate-array) |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 # Prefix Sum
 |  |
