@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& nums) {
+        /*
         set<int> st;
         int n = nums.size();
         int i =1;
@@ -23,6 +24,20 @@ public:
             }
             i++;
         }
+        return move;
+        */
+
+        sort(nums.begin(), nums.end());
+
+        int lastInsertedVal = 0;
+        int move = 0;
+
+        for(auto num: nums){
+            lastInsertedVal = max(lastInsertedVal, num);
+            move+=lastInsertedVal - num;
+            lastInsertedVal+=1;
+        }
+
         return move;
     }
 };
