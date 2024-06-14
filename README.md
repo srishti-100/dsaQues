@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0409-longest-palindrome](https://github.com/srishti-100/dsaQues/tree/master/0409-longest-palindrome) |
 | [0876-hand-of-straights](https://github.com/srishti-100/dsaQues/tree/master/0876-hand-of-straights) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/srishti-100/dsaQues/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/srishti-100/dsaQues/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/srishti-100/dsaQues/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Hash Table
@@ -43,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/srishti-100/dsaQues/tree/master/0648-replace-words) |
 | [0876-hand-of-straights](https://github.com/srishti-100/dsaQues/tree/master/0876-hand-of-straights) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/srishti-100/dsaQues/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1044-find-common-characters](https://github.com/srishti-100/dsaQues/tree/master/1044-find-common-characters) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/srishti-100/dsaQues/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Sorting
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
 | [0876-hand-of-straights](https://github.com/srishti-100/dsaQues/tree/master/0876-hand-of-straights) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/srishti-100/dsaQues/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/srishti-100/dsaQues/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Trie
 |  |
@@ -64,3 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
+# Counting
+|  |
+| ------- |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/srishti-100/dsaQues/tree/master/0982-minimum-increment-to-make-array-unique) |
