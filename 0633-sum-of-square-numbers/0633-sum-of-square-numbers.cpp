@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool judgeSquareSum(int c) {
-        unordered_map<int, int> ump;
+        unordered_map<long, int> ump;
 
         for(int i=0; i<=sqrt(c); i++){
             ump[i*i]++;
