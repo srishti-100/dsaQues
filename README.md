@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/srishti-100/dsaQues/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/srishti-100/dsaQues/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/srishti-100/dsaQues/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/srishti-100/dsaQues/tree/master/0238-product-of-array-except-self) |
 | [0502-ipo](https://github.com/srishti-100/dsaQues/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/srishti-100/dsaQues/tree/master/0648-replace-words) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/srishti-100/dsaQues/tree/master/0238-product-of-array-except-self) |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 # Counting
 |  |
