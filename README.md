@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/srishti-100/dsaQues/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/srishti-100/dsaQues/tree/master/0217-contains-duplicate) |
 | [0409-longest-palindrome](https://github.com/srishti-100/dsaQues/tree/master/0409-longest-palindrome) |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/srishti-100/dsaQues/tree/master/0648-replace-words) |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/srishti-100/dsaQues/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/srishti-100/dsaQues/tree/master/0189-rotate-array) |
+| [0217-contains-duplicate](https://github.com/srishti-100/dsaQues/tree/master/0217-contains-duplicate) |
 | [0502-ipo](https://github.com/srishti-100/dsaQues/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/srishti-100/dsaQues/tree/master/0648-replace-words) |
@@ -60,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
+| [0217-contains-duplicate](https://github.com/srishti-100/dsaQues/tree/master/0217-contains-duplicate) |
 | [0502-ipo](https://github.com/srishti-100/dsaQues/tree/master/0502-ipo) |
 | [0853-most-profit-assigning-work](https://github.com/srishti-100/dsaQues/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/srishti-100/dsaQues/tree/master/0876-hand-of-straights) |
