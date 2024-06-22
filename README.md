@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/srishti-100/dsaQues/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/srishti-100/dsaQues/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0189-rotate-array](https://github.com/srishti-100/dsaQues/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/srishti-100/dsaQues/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/srishti-100/dsaQues/tree/master/0238-product-of-array-except-self) |
@@ -99,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0633-sum-of-square-numbers](https://github.com/srishti-100/dsaQues/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/srishti-100/dsaQues/tree/master/0853-most-profit-assigning-work) |
 # Dynamic Programming
