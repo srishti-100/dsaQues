@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/srishti-100/dsaQues/tree/master/0015-3sum) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/srishti-100/dsaQues/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/srishti-100/dsaQues/tree/master/0141-linked-list-cycle) |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/srishti-100/dsaQues/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/srishti-100/dsaQues/tree/master/0015-3sum) |
 | [0053-maximum-subarray](https://github.com/srishti-100/dsaQues/tree/master/0053-maximum-subarray) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/srishti-100/dsaQues/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
@@ -67,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/srishti-100/dsaQues/tree/master/0015-3sum) |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/srishti-100/dsaQues/tree/master/0217-contains-duplicate) |
 | [0502-ipo](https://github.com/srishti-100/dsaQues/tree/master/0502-ipo) |
