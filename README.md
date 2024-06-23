@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/srishti-100/dsaQues/tree/master/0015-3sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/srishti-100/dsaQues/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/srishti-100/dsaQues/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/srishti-100/dsaQues/tree/master/0141-linked-list-cycle) |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/srishti-100/dsaQues/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/srishti-100/dsaQues/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/srishti-100/dsaQues/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/srishti-100/dsaQues/tree/master/0206-reverse-linked-list) |
