@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/srishti-100/dsaQues/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/srishti-100/dsaQues/tree/master/0189-rotate-array) |
 | [0523-continuous-subarray-sum](https://github.com/srishti-100/dsaQues/tree/master/0523-continuous-subarray-sum) |
 | [0633-sum-of-square-numbers](https://github.com/srishti-100/dsaQues/tree/master/0633-sum-of-square-numbers) |
