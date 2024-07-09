@@ -141,9 +141,26 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 | [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
 ## String
 |  |
 | ------- |
 | [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
+## Array
+|  |
+| ------- |
+| [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
+## Matrix
+|  |
+| ------- |
+| [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
+## Simulation
+|  |
+| ------- |
+| [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 <!---LeetCode Topics End-->
