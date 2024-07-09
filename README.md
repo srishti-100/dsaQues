@@ -136,3 +136,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/srishti-100/dsaQues/tree/master/0003-longest-substring-without-repeating-characters) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Two Pointers
+|  |
+| ------- |
+| [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
+## String
+|  |
+| ------- |
+| [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
+<!---LeetCode Topics End-->
