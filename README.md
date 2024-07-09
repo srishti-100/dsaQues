@@ -143,10 +143,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 | [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
+| [2816-lexicographically-smallest-palindrome](https://github.com/srishti-100/dsaQues/tree/master/2816-lexicographically-smallest-palindrome) |
 ## String
 |  |
 | ------- |
 | [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
+| [2816-lexicographically-smallest-palindrome](https://github.com/srishti-100/dsaQues/tree/master/2816-lexicographically-smallest-palindrome) |
 ## Array
 |  |
 | ------- |
@@ -163,4 +165,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
+## Greedy
+|  |
+| ------- |
+| [2816-lexicographically-smallest-palindrome](https://github.com/srishti-100/dsaQues/tree/master/2816-lexicographically-smallest-palindrome) |
 <!---LeetCode Topics End-->
