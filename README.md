@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/srishti-100/dsaQues/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/srishti-100/dsaQues/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
 | [2816-lexicographically-smallest-palindrome](https://github.com/srishti-100/dsaQues/tree/master/2816-lexicographically-smallest-palindrome) |
 ## Array
@@ -169,9 +170,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [1818-maximum-score-from-removing-substrings](https://github.com/srishti-100/dsaQues/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2816-lexicographically-smallest-palindrome](https://github.com/srishti-100/dsaQues/tree/master/2816-lexicographically-smallest-palindrome) |
 ## Stack
 |  |
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/srishti-100/dsaQues/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/srishti-100/dsaQues/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
