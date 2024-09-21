@@ -177,4 +177,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/srishti-100/dsaQues/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/srishti-100/dsaQues/tree/master/1818-maximum-score-from-removing-substrings) |
+## Depth-First Search
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/srishti-100/dsaQues/tree/master/0386-lexicographical-numbers) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/srishti-100/dsaQues/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
