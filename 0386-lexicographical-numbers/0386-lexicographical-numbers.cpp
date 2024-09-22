@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     static bool compare(int& a, int& b){
@@ -28,4 +29,37 @@ public:
 
         return ans;
     }
+};
+*/
+
+class Solution {
+public:
+    
+    vector<int> lexicalOrder(int n) {
+        vector<int>res(n,0);
+
+        int curr = 1;
+        res[0]= curr;
+        int i =0;
+        while(i<n){
+            res[i] = curr;
+            if(curr*10<=n){
+                
+                curr = curr*10;
+            }
+            else{
+                while(curr%10==9 || curr>=n){
+                    curr/=10;
+                }
+
+                curr+=1;
+
+            }
+            i++;
+        }
+
+        return res;
+
+    }
+
 };
