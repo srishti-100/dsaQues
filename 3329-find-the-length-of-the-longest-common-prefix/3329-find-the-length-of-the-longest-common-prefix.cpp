@@ -33,6 +33,7 @@ public:
         return maxSize;
         */
 
+        /*
         set<string> s;
         for(int i =0; i<arr1.size(); i++){
             string e = to_string(arr1[i]);
@@ -51,5 +52,34 @@ public:
             }
         }
         return ans;
+        */
+
+        set<int> s;
+        for(int i =0; i<arr1.size(); i++){
+            int num = arr1[i];
+
+            while(num!=0){
+                s.insert(num);
+                num/=10;
+            }
+        }
+
+        int ans = -1;
+        for(int i = 0; i<arr2.size(); i++){
+            int num = arr2[i];
+
+            while(num!=0){
+                if(s.find(num)!=s.end()){
+                    ans = max(ans,num);
+                    break;
+                }
+                num/=10;
+            } 
+        }
+
+        if(ans==-1){
+            return 0;
+        }
+        return to_string(ans).length();
     }
 };
