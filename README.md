@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
+| [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Bit Manipulation
 |  |
@@ -192,5 +193,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+## Sorting
+|  |
+| ------- |
+| [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 <!---LeetCode Topics End-->
