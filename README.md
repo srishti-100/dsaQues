@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/srishti-100/dsaQues/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/srishti-100/dsaQues/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2128-reverse-prefix-of-word](https://github.com/srishti-100/dsaQues/tree/master/2128-reverse-prefix-of-word) |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
+| [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
 | [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/srishti-100/dsaQues/tree/master/1694-make-sum-divisible-by-p) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
