@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/srishti-100/dsaQues/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/srishti-100/dsaQues/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/srishti-100/dsaQues/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -207,4 +208,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1694-make-sum-divisible-by-p](https://github.com/srishti-100/dsaQues/tree/master/1694-make-sum-divisible-by-p) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/srishti-100/dsaQues/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 <!---LeetCode Topics End-->
