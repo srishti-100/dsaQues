@@ -161,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 | [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
 | [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
+| [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
 | [1694-make-sum-divisible-by-p](https://github.com/srishti-100/dsaQues/tree/master/1694-make-sum-divisible-by-p) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Bit Manipulation
@@ -220,4 +221,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
+## Math
+|  |
+| ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
+## Geometry
+|  |
+| ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
 <!---LeetCode Topics End-->
