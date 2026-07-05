@@ -226,9 +226,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
 | [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
 ## Geometry
 |  |
 | ------- |
 | [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
