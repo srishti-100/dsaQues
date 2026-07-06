@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 | [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
@@ -168,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 ## Matrix
 |  |
@@ -236,4 +238,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
