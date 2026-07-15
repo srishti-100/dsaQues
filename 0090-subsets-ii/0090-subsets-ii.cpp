@@ -1,39 +1,30 @@
 class Solution {
 public:
-    set<vector<int>> ans;
-    
-    void helper(int i, int n, vector<int>& arr,vector<int>v){
-        if(i==n){
-            ans.insert(v);
+    void helper(vector<int>& nums, int idx, set<vector<int>>& st, vector<int>& temp){
+        if(idx >= nums.size()){
+            // sort(temp.begin(), temp.end());
+            st.insert(temp);
             return;
         }
-        
-        helper(i+1,n,arr,v);
-            
-        v.push_back(arr[i]);
-        helper(i+1,n,arr,v);        
-        v.pop_back();
-       
 
-        // for(int j = i; j<n; j++){
-        //     if (j != i && arr[i] == arr[i - 1]) continue;
-        //     v.push_back(arr[i]);
-        //     helper(i+1,n,arr,v);        
-        //     v.pop_back();
-        //     helper(i+1,n,arr,v);
+        //not pick
+        helper(nums,idx+1, st, temp);
 
-        // }
+        //pick
+        temp.push_back(nums[idx]);
+        helper(nums,idx+1, st, temp);
+        temp.pop_back();
         
     }
+
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        int n = nums.size();
-        vector<int>v;
-        sort(nums.begin(),nums.end());
-        helper(0,n,nums,v);
-        vector<vector<int>> res;
-        for(auto i:ans){
-            res.push_back(i);
-        }
-        return res;
+        vector<int> temp;
+        set<vector<int>> st;
+        sort(nums.begin(), nums.end());
+        helper(nums, 0, st, temp);
+
+        vector<vector<int>> ans (st.begin(), st.end());
+        // sort(ans.begin(), ans.end());
+        return ans;
     }
 };
