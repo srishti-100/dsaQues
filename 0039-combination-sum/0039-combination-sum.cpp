@@ -1,34 +1,34 @@
 class Solution {
 public:
-    set<vector<int>> s;
-
-    void helper(int i, int n, int target, vector<int>& arr,vector<int> v){
-        if(i==n) return;
-        if(target<0) return;
-
-        if(target==0){
-            sort(v.begin(), v.end());
-            s.insert(v);
+    void helper(vector<int>& nums, int target, int idx, set<vector<int>>& st, vector<int>& temp){
+        if(idx >= nums.size()){
+            if(target==0){
+                st.insert(temp);
+            }
             return;
         }
-
-        for(int j= i; j<n; j++){
-            v.push_back(arr[j]);
-            helper(j,n,target-arr[j],arr,v);
-            v.pop_back();
+        if(target == 0){
+            st.insert(temp);
+            return;
         }
+        if(target < nums[idx]) return;
+
+        temp.push_back(nums[idx]);
+        helper(nums,target-nums[idx], idx, st, temp);
+        temp.pop_back();
+
+        helper(nums, target, idx+1, st,temp);
 
     }
 
 
-    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        int n = candidates.size();
-        vector<int>v;
-        vector<vector<int>> ans;
-        helper(0,n,target,candidates,v);
-        for(auto i: s){
-            ans.push_back(i);
-        }
+    vector<vector<int>> combinationSum(vector<int>& nums, int target) {
+        sort(nums.begin(), nums.end());
+        vector<int> temp;
+        set<vector<int>> st;
+        helper(nums, target, 0, st, temp);
+
+        vector<vector<int>> ans(st.begin(), st.end());
         return ans;
     }
 };
