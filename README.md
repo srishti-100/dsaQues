@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/srishti-100/dsaQues/tree/master/0090-subsets-ii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/srishti-100/dsaQues/tree/master/0628-maximum-product-of-three-numbers) |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 | [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
 | [1200-minimum-absolute-difference](https://github.com/srishti-100/dsaQues/tree/master/1200-minimum-absolute-difference) |
@@ -214,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/srishti-100/dsaQues/tree/master/0628-maximum-product-of-three-numbers) |
 | [1200-minimum-absolute-difference](https://github.com/srishti-100/dsaQues/tree/master/1200-minimum-absolute-difference) |
 | [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 ## Prefix Sum
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
+| [0628-maximum-product-of-three-numbers](https://github.com/srishti-100/dsaQues/tree/master/0628-maximum-product-of-three-numbers) |
 | [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
 ## Geometry
 |  |
