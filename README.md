@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/srishti-100/dsaQues/tree/master/0131-palindrome-partitioning) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/srishti-100/dsaQues/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/srishti-100/dsaQues/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -230,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
+| [0131-palindrome-partitioning](https://github.com/srishti-100/dsaQues/tree/master/0131-palindrome-partitioning) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/srishti-100/dsaQues/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 ## Monotonic Stack
 |  |
@@ -257,4 +259,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/srishti-100/dsaQues/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/srishti-100/dsaQues/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/srishti-100/dsaQues/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
