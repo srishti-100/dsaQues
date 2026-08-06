@@ -243,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
 | [0628-maximum-product-of-three-numbers](https://github.com/srishti-100/dsaQues/tree/master/0628-maximum-product-of-three-numbers) |
 | [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/srishti-100/dsaQues/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/srishti-100/dsaQues/tree/master/3536-maximum-product-of-two-digits) |
 ## Geometry
 |  |
@@ -260,4 +261,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/srishti-100/dsaQues/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/srishti-100/dsaQues/tree/master/0131-palindrome-partitioning) |
+## Enumeration
+|  |
+| ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/srishti-100/dsaQues/tree/master/3345-smallest-divisible-digit-product-i) |
 <!---LeetCode Topics End-->
