@@ -11,7 +11,7 @@ public:
         return mult;
     }
     int smallestNumber(int n, int t) {
-        for(int i = n; i<=100; i++){
+        for(int i = n; i<=n+10; i++){
             if(helper(i)%t==0){
                 return i;
             }
