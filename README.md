@@ -241,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/srishti-100/dsaQues/tree/master/0060-permutation-sequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/srishti-100/dsaQues/tree/master/0628-maximum-product-of-three-numbers) |
 | [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/srishti-100/dsaQues/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -253,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/srishti-100/dsaQues/tree/master/0060-permutation-sequence) |
 ## Backtracking
 |  |
 | ------- |
