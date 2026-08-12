@@ -171,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 | [1266-minimum-time-visiting-all-points](https://github.com/srishti-100/dsaQues/tree/master/1266-minimum-time-visiting-all-points) |
 | [1694-make-sum-divisible-by-p](https://github.com/srishti-100/dsaQues/tree/master/1694-make-sum-divisible-by-p) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/srishti-100/dsaQues/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/srishti-100/dsaQues/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3731-find-missing-elements](https://github.com/srishti-100/dsaQues/tree/master/3731-find-missing-elements) |
@@ -215,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/srishti-100/dsaQues/tree/master/1694-make-sum-divisible-by-p) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/srishti-100/dsaQues/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/srishti-100/dsaQues/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3731-find-missing-elements](https://github.com/srishti-100/dsaQues/tree/master/3731-find-missing-elements) |
@@ -272,4 +274,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3345-smallest-divisible-digit-product-i](https://github.com/srishti-100/dsaQues/tree/master/3345-smallest-divisible-digit-product-i) |
+## Sliding Window
+|  |
+| ------- |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/srishti-100/dsaQues/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 <!---LeetCode Topics End-->
