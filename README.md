@@ -161,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/srishti-100/dsaQues/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/srishti-100/dsaQues/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/srishti-100/dsaQues/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/srishti-100/dsaQues/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/srishti-100/dsaQues/tree/master/0090-subsets-ii) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/srishti-100/dsaQues/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/srishti-100/dsaQues/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/srishti-100/dsaQues/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/srishti-100/dsaQues/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/srishti-100/dsaQues/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/srishti-100/dsaQues/tree/master/0131-palindrome-partitioning) |
@@ -282,4 +284,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/srishti-100/dsaQues/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/srishti-100/dsaQues/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
