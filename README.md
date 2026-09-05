@@ -165,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/srishti-100/dsaQues/tree/master/0090-subsets-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0540-single-element-in-a-sorted-array) |
 | [0628-maximum-product-of-three-numbers](https://github.com/srishti-100/dsaQues/tree/master/0628-maximum-product-of-three-numbers) |
 | [0861-flipping-an-image](https://github.com/srishti-100/dsaQues/tree/master/0861-flipping-an-image) |
 | [0944-delete-columns-to-make-sorted](https://github.com/srishti-100/dsaQues/tree/master/0944-delete-columns-to-make-sorted) |
@@ -288,4 +289,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/srishti-100/dsaQues/tree/master/0051-n-queens) |
+## Binary Search
+|  |
+| ------- |
+| [0540-single-element-in-a-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0540-single-element-in-a-sorted-array) |
 <!---LeetCode Topics End-->
