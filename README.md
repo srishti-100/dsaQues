@@ -158,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/srishti-100/dsaQues/tree/master/0004-median-of-two-sorted-arrays) |
 | [0039-combination-sum](https://github.com/srishti-100/dsaQues/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/srishti-100/dsaQues/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/srishti-100/dsaQues/tree/master/0046-permutations) |
@@ -292,5 +293,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/srishti-100/dsaQues/tree/master/0004-median-of-two-sorted-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0540-single-element-in-a-sorted-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/srishti-100/dsaQues/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
