@@ -168,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/srishti-100/dsaQues/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/srishti-100/dsaQues/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/srishti-100/dsaQues/tree/master/0078-subsets) |
+| [0084-largest-rectangle-in-histogram](https://github.com/srishti-100/dsaQues/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/srishti-100/dsaQues/tree/master/0090-subsets-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/srishti-100/dsaQues/tree/master/0215-kth-largest-element-in-an-array) |
@@ -210,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/srishti-100/dsaQues/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/srishti-100/dsaQues/tree/master/0496-next-greater-element-i) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/srishti-100/dsaQues/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -259,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/srishti-100/dsaQues/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/srishti-100/dsaQues/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/srishti-100/dsaQues/tree/master/0496-next-greater-element-i) |
 ## Math
@@ -329,4 +332,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/srishti-100/dsaQues/tree/master/0295-find-median-from-data-stream) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/srishti-100/dsaQues/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
