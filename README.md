@@ -149,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/srishti-100/dsaQues/tree/master/0013-roman-to-integer) |
 | [0131-palindrome-partitioning](https://github.com/srishti-100/dsaQues/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/srishti-100/dsaQues/tree/master/0151-reverse-words-in-a-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/srishti-100/dsaQues/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -231,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/srishti-100/dsaQues/tree/master/0013-roman-to-integer) |
 | [0496-next-greater-element-i](https://github.com/srishti-100/dsaQues/tree/master/0496-next-greater-element-i) |
 | [1256-rank-transform-of-an-array](https://github.com/srishti-100/dsaQues/tree/master/1256-rank-transform-of-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/srishti-100/dsaQues/tree/master/1694-make-sum-divisible-by-p) |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/srishti-100/dsaQues/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/srishti-100/dsaQues/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/srishti-100/dsaQues/tree/master/0060-permutation-sequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/srishti-100/dsaQues/tree/master/0628-maximum-product-of-three-numbers) |
