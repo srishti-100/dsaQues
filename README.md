@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/srishti-100/dsaQues/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/srishti-100/dsaQues/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/0014-longest-common-prefix) |
 | [0131-palindrome-partitioning](https://github.com/srishti-100/dsaQues/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/srishti-100/dsaQues/tree/master/0151-reverse-words-in-a-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/srishti-100/dsaQues/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/srishti-100/dsaQues/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/0014-longest-common-prefix) |
 | [0033-search-in-rotated-sorted-array](https://github.com/srishti-100/dsaQues/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/srishti-100/dsaQues/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/srishti-100/dsaQues/tree/master/0040-combination-sum-ii) |
@@ -227,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/0014-longest-common-prefix) |
 | [0386-lexicographical-numbers](https://github.com/srishti-100/dsaQues/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/srishti-100/dsaQues/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/srishti-100/dsaQues/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
